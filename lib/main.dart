@@ -71,7 +71,7 @@ class CounterWidget extends StatelessWidget {
                   ),
                   Text(
                     '${state.counter}',
-                    style: Theme.of(context).textTheme.display1,
+                    style: Theme.of(context).textTheme.subtitle1,
                   ),
                 ],
               ),
